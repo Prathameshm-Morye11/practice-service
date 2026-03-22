@@ -1,0 +1,50 @@
+Others
+
+1.
+input: [1,2,3,4];
+output:[24,12,8,6]
+
+2.
+input : [5,4,0,1,2,9,0]
+output : [5,4,1,2,9,0,0]
+
+3. 
+input: PrathameshP01234567Test
+target:P0
+limit:6
+output: 123456
+
+4.
+	
+      1
+    2 3
+  4 5 6
+7 8 9 10
+
+============================================================================
+
+Intellect
+1.
+input:"manojpandey"
+o/p- a-2,n-2.
+
+2.
+input : [5,4,0,1,2,9,0]
+Output : [1,2,4,5,9,0,0]
+
+============================================================================
+
+mphasis
+1.Find the 2nd Highest salary from Employee
+
+2. Find the longest string having non-repeating characters from the input
+input: "javaconceptoftheday"
+output: "oftheday"
+
+3. Count the continue repeating character
+input: AABCCBDA
+output: A2,B1,C2,B1,D1,A1
+
+
+
+

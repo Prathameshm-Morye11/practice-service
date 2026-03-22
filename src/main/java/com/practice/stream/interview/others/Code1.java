@@ -1,4 +1,4 @@
-package com.practice.stream.interview;
+package com.practice.stream.interview.others;
 
 public class Code1 {
 

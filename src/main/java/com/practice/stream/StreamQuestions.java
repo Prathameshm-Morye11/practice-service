@@ -6,6 +6,8 @@ import java.util.Arrays;
 import java.util.Comparator;
 import java.util.HashSet;
 import java.util.List;
+import java.util.Map;
+import java.util.Optional;
 import java.util.Set;
 import java.util.function.Function;
 import java.util.stream.Collectors;
@@ -81,7 +83,6 @@ public class StreamQuestions {
 			System.out.println("Output 11 ===> Given String is Palindrome");
 		} else {
 			System.out.println("Output 11 ===> Given String is not Palindrome");
-
 		}
 
 		// 12. Last element of an array
@@ -95,7 +96,6 @@ public class StreamQuestions {
 		System.out.println("Output 13 ==> " + ChronoUnit.YEARS.between(dob, currDate));
 
 		// 14. Remove Duplicates elements from list
-
 		List<Integer> input14 = Arrays.asList(15, 43, 76, 78, 22, 91, 28, 7, 78, 15);
 		System.out.println("Output 14 ==> " + input14.stream().distinct().collect(Collectors.toList()));
 
@@ -164,5 +164,52 @@ public class StreamQuestions {
 		// 26. Fibonacci Series
 		System.out.println("Output 26 ==>" + Stream.iterate(new int[] { 0, 1 }, f -> new int[] { f[1], f[0] + f[1] })
 				.limit(10).map(f -> f[0]).collect(Collectors.toList()));
+
+		// 27. Find the longest string in the list of string
+		List<String> string27 = Arrays.asList("apple", "banana", "cherryberrylerry", "date", "grapefruit");
+
+		List<String> result27a = string27.stream().sorted(Comparator.comparing(String::length).reversed()).limit(1)
+				.collect(Collectors.toList());
+		System.out.println("Result27a ==>" + result27a);
+
+		Optional<String> result27b = string27.stream().max(Comparator.comparing(String::length));
+		System.out.println("Result27b ==>" + result27b.get());
+
+		// 28. Calculate the average age of a list of Person objects using Java streams:
+		List<Person> persons = Arrays.asList(new Person("Alice", 25), new Person("Bob", 30), new Person("Charlie", 35));
+
+		Double result28 = persons.stream().mapToInt(Person::getAge).average().getAsDouble();
+
+		System.out.println("Result28 ==>" + result28);
+
+		// 29.Find the intersection of two lists using Java streams:
+		List<Integer> lst29a = Arrays.asList(3, 4, 31, 56);
+		List<Integer> lst29b = Arrays.asList(1, 7, 9, 4);
+		List<Integer> result29 = lst29a.stream().filter(lst29b::contains).collect(Collectors.toList());
+
+		System.out.println("Result29 ==>" + result29);
+
+		// 30. Given a list of transactions, find the sum of transaction amounts for
+		// each day using Java streams:
+		List<Transaction> input30 = Arrays.asList(new Transaction("2022-01-01", 100),
+				new Transaction("2022-01-01", 200), new Transaction("2022-01-02", 300),
+				new Transaction("2022-01-02", 400), new Transaction("2022-01-03", 500));
+
+		Map<String, Integer> result30 = input30.stream()
+				.collect(Collectors.groupingBy(Transaction::getDate, Collectors.summingInt(Transaction::getAmount)));
+
+		System.out.println("Result 30 ==> ");
+		for (Map.Entry<String, Integer> map : result30.entrySet()) {
+			System.out.println(map.getKey() + " : " + map.getValue());
+		}
+
+		// 31.Find the kth smallest element in an array using Java streams
+		int[] array31 = { 44, 2, 7, 1, 5, 3, 6 };
+		int k = 5;
+
+		int result31 = Arrays.stream(array31).sorted().skip(k - 1).limit(1).findFirst().getAsInt();
+		System.out.println("Result 31 ==> " + result31);
+
 	}
+
 }

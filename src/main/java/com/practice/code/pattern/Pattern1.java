@@ -1,6 +1,6 @@
-package com.practice.code;
+package com.practice.code.pattern;
 
-public class Pattern {
+public class Pattern1 {
 
 	public static void main(String[] args) {
 		// Q.1)

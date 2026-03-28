@@ -110,9 +110,8 @@ public class StreamQuestions {
 
 		// 17. Maximum and Minimum in the list
 		List<Integer> input17 = Arrays.asList(15, 43, 76, 78, 22, 91, 28, 7, 78, 15);
-		System.out.println("Output 17 :: MIN ==> " + input17.stream().sorted().limit(1).findFirst().get());
-		System.out.println("Output 17 :: MAX ==> "
-				+ input17.stream().sorted(Comparator.reverseOrder()).limit(1).findFirst().get());
+		System.out.println("Output 17 :: MIN ==> " + input17.stream().min(Comparator.naturalOrder()).get());
+		System.out.println("Output 17 :: MAX ==> " + input17.stream().max(Comparator.naturalOrder()).get());
 
 		// 18. Anagram Program
 		String input18a = "keep";
@@ -137,7 +136,7 @@ public class StreamQuestions {
 		System.out.println(
 				"Output 20 ==> " + Arrays.stream(input20).sorted().skip(input20.length - 2).findFirst().getAsInt());
 
-		// 21. Common elements between two arrays
+		// 21. Common elements between two List
 		List<Integer> input21a = Arrays.asList(5, 3, 56, 78, 32, 90, 21);
 		List<Integer> input21b = Arrays.asList(15, 43, 76, 78, 22, 91, 28);
 
@@ -167,9 +166,8 @@ public class StreamQuestions {
 
 		// 27. Find the longest string in the list of string
 		List<String> string27 = Arrays.asList("apple", "banana", "cherryberrylerry", "date", "grapefruit");
-
-		List<String> result27a = string27.stream().sorted(Comparator.comparing(String::length).reversed()).limit(1)
-				.collect(Collectors.toList());
+		String result27a = string27.stream().sorted(Comparator.comparing(String::length).reversed()).limit(1)
+				.findFirst().get();
 		System.out.println("Result27a ==>" + result27a);
 
 		Optional<String> result27b = string27.stream().max(Comparator.comparing(String::length));
@@ -210,6 +208,10 @@ public class StreamQuestions {
 		int result31 = Arrays.stream(array31).sorted().skip(k - 1).limit(1).findFirst().getAsInt();
 		System.out.println("Result 31 ==> " + result31);
 
+		// 32. Fetch values from array which start with 1
+		int[] arr1 = { 10, 15, 56, 43, 17, 90 };
+		int[] result = Arrays.stream(arr1).filter(i -> String.valueOf(i).startsWith("1")).toArray();
+		System.out.println("Result 32 ==> " + Arrays.toString(result));
 	}
 
 }

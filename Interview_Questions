@@ -4,8 +4,7 @@ Can we overlap Main method in java
 MongoDB Aggregation queries
 how to create deadlock using two thread
 
-=========================================
-
+==============================================================================================================
 
 1.Intellect
 
@@ -26,10 +25,73 @@ what is microservice
 @Primary
 
 
+2.Intellect
 
-=========================================
+OOPS concept
+Spring annotation
+When thread is started 2 times then what happened
+how do you merged the code when multiple developers are working on same files
 
-2.mphasis
+==============================================================================================================
 
+1.mphasis
+
+1.What is shallow and deep copy
+2.What is index? Cluster index and non cluster index
+3.how do you print logger for 4-5 API Using single logger
+4.How to Autoconfiguration in Spring boot
+5.Internal working of hashset
+6.Design Patterns: Singleton
+7.DSA Algorithm
+8.How idempotency work and on which method it is used
+9.how locking happed in multithread
+10.Working of kafka
+11.Use of consumer group? multiple consumer connect to same offset
+12.What happened if I change the offset of partitions from 30 to 40 manually
+13.How to call producer from java application and send message to kafka
+14.In which format we are sending the messages to kafka
+
+
+2.Mphasis/JPMorgan
+
+1.What is intermediate and terminator in stream
+2.If increasing indexing then what is going to be happened
+3.What issue you may face in mongoDB over MySql
+4.If producer is producing multiple request and consumers are less in numbers then 
+  what happened and how you are going to overcome this issue
+5.If partitions are 4 and consumers are 2 then what is going to be happened and how the messages are going on the consumers
+6.OOPS Concept
+7.Difference between Stream and parallel Stream
+
+==============================================================================================================
+
+1.Gammastack/Intevue
+
+Is @Transactional is always rollback in case of exception?
+How do you checked that load is coming on API?
+If Service A is calling to Service B and Service B is down then how will you manage that?
+
+2.Intevue
+
+1.Dense rank internal working
+2.code linting
+3.point cut
+4.AOP
+5.design saga pattern
+6.implement Dependency injection
+7.How do you check memory leakage in the system and what kind of tools you we use to detect the leakage
+
+==============================================================================================================
+
+Dmart
+
+Questions
+1. How does kafka works
+2. How data send from producer to consumer sequentially
+3. What is use of partition
+4. How Payment gateway works
+5. How Microservices are working internally in the system
+
+==============================================================================================================
 
 

@@ -23,7 +23,7 @@ output: 123456
 
 ============================================================================
 
-Intellect
+1.Intellect
 1.
 input:"manojpandey"
 o/p- a-2,n-2.
@@ -32,19 +32,45 @@ o/p- a-2,n-2.
 input : [5,4,0,1,2,9,0]
 Output : [1,2,4,5,9,0,0]
 
+
+2.Intellect
+1.find the lowest number using pure java code
+int[] arr=[4,6,1,8,9];
+output: 1
+
 ============================================================================
 
-mphasis
+1.mphasis
+
 1.Find the 2nd Highest salary from Employee
 
-2. Find the longest string having non-repeating characters from the input
+2.Find the longest string having non-repeating characters from the input
 input: "javaconceptoftheday"
 output: "oftheday"
 
-3. Count the continue repeating character
+3.Count the continue repeating character
 input: AABCCBDA
 output: A2,B1,C2,B1,D1,A1
 
 
+2.Mphasis/JPMorgan
+print the distinct values and order should be maintain
+[4, 5, 6, 62, 1, 2, 3, 4]
 
+================================================================================================================
 
+Intevue
+
+1.
+implement LRU Cache
+Design and implement an LRU cache. Cache should be generic to store any data type and can be extended and inherited further as per requirement .
+Cache should be threadsafe. use latest java 8 concept 
+
+================================================================================================================
+
+Dmart
+
+1.Find the first non repeating character 
+String str="AAABCDD";
+
+================================================================================================================

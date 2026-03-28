@@ -1,0 +1,34 @@
+Gammastack/Intevue
+
+1.find the nth maximum salary from Table
+
+==========================================================================================================
+
+Intellect
+
+Table 1
+col1 col2 col3 
+123  wer  sdf 
+qwe  awy  456 
+
+Table 2 
+col1 col2 col3 
+123  wer  sdf 
+345  pqr  987 
+
+Write a query to find the all the rows from tables and duplicate row should be print for only 1 time using sql
+
+============================================================================================================
+
+Mphasis
+
+Employee 
+emlId, name, Depar,id, deptName
+1, ABC, 101, IT
+2, PQR, 102, Bio
+3, XYZ, 103, chem
+4, PQR, 101, IT
+
+find count of employees in each department;
+============================================================================================================
+

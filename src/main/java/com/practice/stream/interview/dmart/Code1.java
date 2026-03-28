@@ -4,6 +4,7 @@ public class Code1 {
 
 	public static void main(String[] args) {
 
+		// 1. find the first not repeating characters
 		String str = "AABCAD";
 		for (int i = 0; i < str.length(); i++) {
 			Character currChar = str.charAt(i);
@@ -12,7 +13,7 @@ public class Code1 {
 				count++;
 				i++;
 			}
-			
+
 			if (count == 1) {
 				System.out.println(currChar);
 				break;

@@ -94,4 +94,25 @@ Questions
 
 ==============================================================================================================
 
+Morgan Stanley
+
+Implement Singleton class ? How its implementation can be destroyed or break
+abstraction vs interface
+HashMap internal working
+concurrentHashMap and its internal working
+write optionalClass and its implementation
+Questions on method overloading and method overriding
+Use of BuilderPattern
+How Maven works and step to follow
+Set vs HashMap
+Can we define the static final block and what is use of it
+how can we manually run the Garbage collector
+finally vs finalize
+RecentractLock
+What is the impact of memory leakage
+where object, local variables and methods are stored?
+component and Bean in springboot
+@Primary and @Qualifier which will execute first.
+
+
 

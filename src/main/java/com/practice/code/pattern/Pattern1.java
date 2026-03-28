@@ -9,7 +9,7 @@ public class Pattern1 {
 		// 121
 		// 1331
 
-		int n1 = 5;
+		int n1 = 4;
 		for (int i = 0; i < n1; i++) {
 			for (int j = 0; j < n1; j++) {
 				if ((i == j) || j == 0) {

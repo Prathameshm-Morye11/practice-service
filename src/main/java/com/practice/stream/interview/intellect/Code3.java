@@ -3,8 +3,8 @@ package com.practice.stream.interview.intellect;
 public class Code3 {
 
 	public static void main(String[] args) {
-		
-		//Find the lowest number
+
+		// Find the lowest number
 		int[] arr = { 4, 6, 1, 8, 9 };
 
 		for (int i = 0; i < arr.length; i++) {
@@ -18,6 +18,5 @@ public class Code3 {
 		}
 
 		System.out.println(arr[0]);
-
 	}
 }

@@ -5,6 +5,7 @@ import java.util.Arrays;
 public class MoveZerosToLast {
 
 	public static void main(String[] args) {
+		// Move all the zeros to the last
 		// Input : [5,4,0,1,2,9,0]
 		// Output : [5,4,1,2,9,0,0]
 

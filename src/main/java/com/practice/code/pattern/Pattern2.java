@@ -4,6 +4,11 @@ public class Pattern2 {
 
 	public static void main(String[] args) {
 
+//		   	1
+//		   23
+//		  456
+//		 78910
+
 		int row = 4;
 		int num = 1;
 

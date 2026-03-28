@@ -53,12 +53,12 @@ public class StreamQuestions {
 
 		// 7. Three max and min Numbers from the list
 		List<Integer> input7 = Arrays.asList(15, 43, 76, 78, 22, 91, 28, 7, 45, 12);
-		List<Integer> maxNumber = input7.stream().sorted().limit(3).collect(Collectors.toList());
-		List<Integer> minNumber = input7.stream().sorted(Comparator.reverseOrder()).limit(3)
+		List<Integer> minNumber = input7.stream().sorted().limit(3).collect(Collectors.toList());
+		List<Integer> maxNumber = input7.stream().sorted(Comparator.reverseOrder()).limit(3)
 				.collect(Collectors.toList());
 
-		System.out.println("Output 7 :: Max Three ==> " + maxNumber);
 		System.out.println("Output 7 :: Min Three ==> " + minNumber);
+		System.out.println("Output 7 :: Max Three ==> " + maxNumber);
 
 		// 8. Sort the list of String in Increasing order of their length
 		List<String> input8 = Arrays.asList("Mango", "Banana", "Watermelon", "Chiku", "Apple", "Corn");
@@ -77,7 +77,7 @@ public class StreamQuestions {
 
 		// 11. Palindrome Program
 		String input11 = "nitin";
-		Boolean inPalindrome = IntStream.rangeClosed(1, input11.length() / 2)
+		Boolean inPalindrome = IntStream.rangeClosed(0, input11.length() / 2)
 				.noneMatch(i -> input11.charAt(i) != input11.charAt(input11.length() - i - 1));
 		if (inPalindrome) {
 			System.out.println("Output 11 ===> Given String is Palindrome");

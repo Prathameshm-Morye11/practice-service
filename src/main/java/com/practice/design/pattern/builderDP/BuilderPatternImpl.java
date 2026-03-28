@@ -1,4 +1,4 @@
-package com.practice.design.pattern;
+package com.practice.design.pattern.builderDP;
 
 public class BuilderPatternImpl {
 

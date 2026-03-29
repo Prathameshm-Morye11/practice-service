@@ -1,4 +1,4 @@
-package com.practice.code;
+package com.practice.stream.interview.others;
 
 public class FibonacciSeries {
 

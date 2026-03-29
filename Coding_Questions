@@ -80,20 +80,6 @@ CapeGemini
 In a shop, a chocolate costs rupees 1. Shopkeeper offers one chocolate when return 4 chocolate wrappers.
 Write a program to find total chocolates obtained by a person with rupees N.
 
-class Chocolate{
-    
-    public static void main(){
-
-        int n=4;
-        int chocolateCount=0;
-
-        int wrapperCount=n;
-        int totalChocolateCount=n+wrapperCount/4;
-
-        System.out.print(totalChocolateCount);
-    }
-}
-
 ================================================================================================================
 
 Morgan Stanley

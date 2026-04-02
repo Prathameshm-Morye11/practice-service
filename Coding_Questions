@@ -87,3 +87,10 @@ Morgan Stanley
 Write the code to sort the list of Employees base on name in descending order
 Implement code base on Runnable,Thread and executor
 
+================================================================================================================
+
+ATOS/EY
+1.Find the count of characters except spaces
+String name="Prathamesh Prakash Morye";
+
+2.Revert the String

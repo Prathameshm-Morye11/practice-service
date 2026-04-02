@@ -1,0 +1,31 @@
+Atos/EY
+
+Q.1)
+String s1="Notes";
+String s2=new String("Notes")
+String s3=new String("Notes")
+StringBuffer s4=new StringBuffer("Notes")
+StringBuffer s5=new StringBuffer("Notes")
+
+Ans:
+s1.equals(s2)  --> ?
+s2.equals(s3)  --> ?
+s4.equals(s5)  --> ?
+s1==s3         --> ?
+s2.equals(s4)  --> ?
+
+
+Q.2)
+
+What will be output of the below code(Considering i=0) - 
+public int divide(int i){
+try{\
+int a = 10/i;
+}catch(Exception e){
+return 10;
+}finally{
+return 20;
+}
+}
+
+=============================================================================================

@@ -3,7 +3,7 @@ package com.practice.code.pattern;
 public class Pattern2 {
 
 	public static void main(String[] args) {
-
+//		Output:
 //		   	1
 //		   23
 //		  456

@@ -3,7 +3,7 @@ package com.practice.code.pattern;
 public class Pattern1 {
 
 	public static void main(String[] args) {
-		// Q.1)
+		// Output:
 		// 1
 		// 11
 		// 121

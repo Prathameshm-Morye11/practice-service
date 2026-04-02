@@ -114,5 +114,17 @@ where object, local variables and methods are stored?
 component and Bean in springboot
 @Primary and @Qualifier which will execute first.
 
+==============================================================================================================
+
+Atos/EY
+
+Custom Annotation
+In single application If I want to connect one table with MySQL and over with MongoDB then how I can handle it in Spring boot
+how many ways we can connect microservices
+@Primary and @Qualifier
+How threads optimized the performs and ideal count of threads in system and why
+exception vs error
+checked vs unchecked exception
+String Buffer vs string vs String Builder
 
 

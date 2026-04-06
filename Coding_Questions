@@ -73,6 +73,13 @@ Dmart
 1.Find the first non repeating character 
 String str="AAABCDD";
 
+2.Dmart
+
+1. find the occurrences/count of numbers
+int[] arr={1,3,4,1,3,4,1,32};
+
+2.fibonacci series
+
 ================================================================================================================
 
 CapeGemini
@@ -94,3 +101,25 @@ ATOS/EY
 String name="Prathamesh Prakash Morye";
 
 2.Revert the String
+
+================================================================================================================
+
+Atos
+
+Q1. Write a Java program to merge two sorted arrays into a single sorted array
+int arr1[] = { 2, 4, 7, 8, 12, 15 };
+int arr2[] = { 3, 4, 9, 10, 13, 17 };
+
+Q2. 
+write a code to find if above two strings are anagrams
+String str1 = "silentttr";
+String str2 = "listene";
+		
+Q3.
+find the second largest integer without sorting the array (output = 55)
+int[] arr = {7,2,55,90,23,54}; 
+
+Q4.
+write a code to find 2nd highest salary of Employee from Department HR having salary greater than 10000
+
+================================================================================================================

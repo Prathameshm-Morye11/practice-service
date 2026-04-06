@@ -3,6 +3,13 @@ Others
 Can we overlap Main method in java
 MongoDB Aggregation queries
 how to create deadlock using two thread
+deadlock
+race condition
+synchronized
+lock
+volatile
+Object lock and class lock
+Types of executor service
 
 ==============================================================================================================
 
@@ -83,7 +90,7 @@ If Service A is calling to Service B and Service B is down then how will you man
 
 ==============================================================================================================
 
-Dmart
+1.Dmart
 
 Questions
 1. How does kafka works
@@ -91,6 +98,21 @@ Questions
 3. What is use of partition
 4. How Payment gateway works
 5. How Microservices are working internally in the system
+
+2.Dmart
+fasade design pattern
+bridge design pattern
+Factory Design Pattern
+Abstract Design Pattern
+idempotency used in which method
+garbage collector and its internal working and how can we increase its memory
+Exception hierarchy
+Spring boot flow from starting to crud opeation for APIS
+controller vs RestController
+Spring boot standards to create APIS
+microservices used in project architecture
+authentication flow
+DTO vs DAO
 
 ==============================================================================================================
 
@@ -127,4 +149,6 @@ exception vs error
 checked vs unchecked exception
 String Buffer vs string vs String Builder
 
+
+==============================================================================================================
 

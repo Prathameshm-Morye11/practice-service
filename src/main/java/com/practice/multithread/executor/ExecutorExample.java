@@ -1,4 +1,4 @@
-package com.practice.multithread.reentranctlock;
+package com.practice.multithread.executor;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;

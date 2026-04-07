@@ -139,7 +139,7 @@ component and Bean in springboot
 ==============================================================================================================
 
 Atos/EY
-
+1.
 Custom Annotation
 In single application If I want to connect one table with MySQL and over with MongoDB then how I can handle it in Spring boot
 how many ways we can connect microservices
@@ -149,6 +149,13 @@ exception vs error
 checked vs unchecked exception
 String Buffer vs string vs String Builder
 
-
 ==============================================================================================================
+EY
 
+1.HashMap vs ConcurrentHashMap
+2.Fail-fast vs Fail-safe
+3.How Bean is created in Spring Boot
+4.Circuit Breaker
+5.How Kafka works asynchrous in you application
+6.How do you handle if any microservice in not working
+7.@Transactional

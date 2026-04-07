@@ -32,3 +32,41 @@ emlId, name, Depar,id, deptName
 find count of employees in each department;
 ============================================================================================================
 
+Write a query to find out the Employees whose salary is more that or equal to salaries of their manager.
+Table Name : Employee
+ 
+Columns :
+ 
+Employee_Id	Employee_Name	Manager_Id	Salary
+ 
+1			Manish			2			4000
+ 
+2			Hitesh			7			3000
+ 
+3			Ramesh			1			3000
+ 
+4			Suresh			1			5000
+ 
+5			Pankaj			2			2000
+ 
+6			Suraj			6			1000
+ 
+7			Kumar			null		8000
+ 
+8			Piyush			2			4000						
+Expected Output:
+ 
+Employee_Id		Employee_Name
+ 
+4				Suresh
+ 
+8				Piyush
+
+Select * from Employee as e1 JOIN Employee as e2 on e1.Manager_Id= e2.Employee_Id where e1.salary>= e2.salary
+
+=============================================================================================
+EY
+
+Find the student with Maximum Marks
+
+

@@ -18,8 +18,5 @@ public class Conceptual2 {
 		} finally {
 			return 20;
 		}
-
-		// TODO Auto-generated method stub
-
 	}
 }

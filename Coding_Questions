@@ -137,3 +137,7 @@ Q4.
 write a code to find 2nd highest salary of Employee from Department HR having salary greater than 10000
 
 ================================================================================================================
+EY
+
+String s = "abcabcacdbac";
+Find the Longest non-repeating string

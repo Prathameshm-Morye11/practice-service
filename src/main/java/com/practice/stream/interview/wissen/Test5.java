@@ -20,6 +20,7 @@ public class Test5 {
 		for (int distance : arr) {
 			totalSum += distance;
 		}
+
 		int leftSum = 0;
 		for (int i = 0; i < n; i++) {
 			if (leftSum == totalSum - leftSum - arr[i]) {

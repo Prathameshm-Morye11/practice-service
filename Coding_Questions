@@ -141,3 +141,10 @@ EY
 
 String s = "abcabcacdbac";
 Find the Longest non-repeating string
+
+================================================================================================================
+Wissen
+
+Problem Statement: Given an array of N positive integers, we need to return the maximum sum of the subsequence 
+such that no two elements of the subsequence are adjacent elements in the array.
+Input: nums = [1, 2, 4]

@@ -1,6 +1,5 @@
 package com.practice.stream.interview.intellect;
 
-import java.util.Map;
 import java.util.function.Function;
 import java.util.stream.Collectors;
 

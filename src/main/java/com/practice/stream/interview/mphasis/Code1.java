@@ -13,7 +13,7 @@ public class Code1 {
 		Employees secondHighestSalary = lstEmp.stream().sorted(Comparator.comparing(Employees::getSalary).reversed())
 				.skip(1).findFirst().get();
 
-		System.out.println(secondHighestSalary);
+		System.out.println(secondHighestSalary.getSalary());
 	}
 
 }

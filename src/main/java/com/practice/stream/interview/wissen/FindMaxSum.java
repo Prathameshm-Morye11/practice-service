@@ -11,7 +11,6 @@ public class FindMaxSum {
 	public static void main(String[] args) {
 		int[] arr = { 2, 1, 1, 2 };
 		System.out.println(maxSum(arr));
-
 	}
 
 	private static int maxSum(int[] arr) {

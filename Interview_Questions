@@ -149,6 +149,18 @@ exception vs error
 checked vs unchecked exception
 String Buffer vs string vs String Builder
 
+2.
+What are the differences between @Async, ExecutorService, and Callable/Future in Java?Which is the best approach?
+How does Kafka handle multiple requests when Docker environment with multiple containers?
+What are the common reasons for an API becoming slow?What strategies can be used to identify and resolve performance bottlenecks?
+What is circular API Services (e.g., Service A calls Service B and Service B calls Service A)?What problems can it cause, and how can it be prevented or resolved?
+HashMap Internal Working
+ConcurrentHashMap Internal Working
+volatile Keyword in Java
+If Microservice A calls Microservice B and B is slow, how should A handle it?
+@Component vs @Bean
+how to design/configure system such a way that 2 database can in connected in single microservice?
+
 ==============================================================================================================
 EY
 
@@ -159,3 +171,17 @@ EY
 5.How Kafka works asynchrous in you application
 6.How do you handle if any microservice in not working
 7.@Transactional
+
+==============================================================================================================
+
+Accolite
+1.@Transactional Internal working
+2.Volatile keyword uses
+3.OOPM with real example
+4.immutable class and how it is set parameters
+5.Comparable vs Comparator
+6.Functional interfaces?Types of functional interfaces
+7.Covariant return type? Covariant variable?
+8.Where the singleton object is stored
+9.CompletableFuture vs Future
+10.LRU Cache

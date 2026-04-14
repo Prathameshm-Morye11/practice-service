@@ -35,6 +35,10 @@ by buying on day 2 (price = 1) and selling on day 5 (price = 6).
 Your implementation should have a time complexity of O(n), where n is the number of elements in the input list.
  
 Be prepared to explain your approach and the time complexity of your solution during the interview.
+
+
+6.String str = "cadacdeabcafg"
+  o/p:"e" first non-replatable char
 ========================================================================================================================================================
 
 1.Intellect
@@ -51,6 +55,8 @@ Output : [1,2,4,5,9,0,0]
 1.find the lowest number using pure java code
 int[] arr=[4,6,1,8,9];
 output: 1
+
+
 
 ============================================================================
 
@@ -148,3 +154,14 @@ Wissen
 Problem Statement: Given an array of N positive integers, we need to return the maximum sum of the subsequence 
 such that no two elements of the subsequence are adjacent elements in the array.
 Input: nums = [1, 2, 4]
+
+================================================================================================================
+
+Accolite
+
+1.Find Second Highest
+44,34,23,44,12
+
+2.Count employees per each department
+
+================================================================================================================

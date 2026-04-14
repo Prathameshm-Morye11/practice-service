@@ -256,3 +256,33 @@ public class ThreadTest {
 } 
 
  
+===================================================================================================
+ 
+ class parent{
+	static void show(){
+		sop("parent static");
+	}
+	void print(){
+  		sop("Parent instance")
+	}
+}
+class child extends parent{
+	static void show(){
+		sop("child static");
+	}
+	void print(){
+  		sop("child instance")
+	}
+}
+main(){
+	parent p = new Child();
+	Child c = new Parent ();
+ 
+	p.show();   //  parent static child static
+	p.print(); // 	child instance
+	c.show();  //   Parent static
+
+}
+
+===================================================================================================
+

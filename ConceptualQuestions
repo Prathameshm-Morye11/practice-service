@@ -27,6 +27,52 @@ return 10;
 return 20;
 }
 }
+ 
+Q.3) Output ?
+public class Conceptual4 {
+
+	public static void main(String[] args) {
+		Person p = new Person("abd");
+		m1(p);
+
+		System.out.println(p.getName());
+	}
+
+	public static void m1(Person p) {
+		p = new Person("Prathamesh");
+	}
+}
+
+
+Q.4) Will it run?
+try{
+	
+}catch(Exception e){
+	System.out.println("Error");
+}
+
+System.out.println("Success");
+
+finally{
+	System.out.println("Finally");
+}
+
+
+Q.5) Will finally block execute?
+try{
+	
+}catch(Exception e){
+	System.out.println("Error");
+	throw new YoungAgeException("under 18");
+}
+finally{
+	System.out.println("Finally");
+}
+
+Q.6) will it compile? Output?
+	List myList = new ArrayList<>();
+		myList.add("1");
+		myList.add(1);
 
 =============================================================================================
 

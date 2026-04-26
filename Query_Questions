@@ -70,4 +70,8 @@ EY
 Find the student with Maximum Marks
 
 =============================================================================================
+MITS
 
+Query
+1. find the department , avg salary where avg salary > 700000;
+2. find max salary from each department

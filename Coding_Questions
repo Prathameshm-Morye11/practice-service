@@ -164,4 +164,17 @@ Accolite
 
 2.Count employees per each department
 
+3.
+Given a list of strings, find and group all anagrams into separate lists.
+Example: List<String> anaList = Arrays.asList("eat", "tea", "tan", "ate", "nat", "bat");
+Expected Output: {eat, tea, ate}, {tan, nat}, {bat}
+
 ================================================================================================================
+MITS
+
+Questions
+1. fetch the records from employee in which gender is female and salary > 300000
+2. fetch the highest salary of emplyoee from each department
+
+================================================================================================================
+

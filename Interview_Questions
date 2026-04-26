@@ -185,3 +185,24 @@ Accolite
 8.Where the singleton object is stored
 9.CompletableFuture vs Future
 10.LRU Cache
+
+
+2.
+Double locking singleton
+Implement Kafka producer with consumer
+Retry
+Kafka Template
+
+========================================================================================================================
+
+MITS
+
+API Versioning
+@Component @Service @Repository
+API taking time to fetch details then how we can make it faster
+Spring boot architecture
+
+================================================================================================
+
+
+

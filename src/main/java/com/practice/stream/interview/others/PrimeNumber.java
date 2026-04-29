@@ -16,11 +16,11 @@ public class PrimeNumber {
 	private static boolean prime(int number) {
 
 		if (number <= 1) {
-			return true;
+			return false;
 		}
 
 		if (number == 2) {
-			return false;
+			return true;
 		}
 
 		for (int i = 2; i * i <= number; i++) {

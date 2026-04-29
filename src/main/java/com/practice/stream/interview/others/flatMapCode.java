@@ -3,7 +3,7 @@ package com.practice.stream.interview.others;
 import java.util.Arrays;
 import java.util.List;
 
-public class Others {
+public class flatMapCode {
 
 	public static void main(String[] args) {
 
